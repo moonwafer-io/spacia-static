@@ -1,0 +1,36 @@
+{
+    "features": [
+        {
+            "id": "f-0.19-1",
+            "highlight": true,
+            "text": "Added documentation section with a \"crash course\" video and article.",
+            "reasoning": "Docs are great to have - both video and written. In the coming months, we'll be adding more articles as new features get released."
+        }
+    ],
+    "bugs": [
+        {
+            "id": "b-0.19-1",
+            "highlight": true,
+            "text": "Fixed minor synchronization issue when blocks that had both a parent and child were deleted.",
+            "reasoning": "When deleting a block that has both a parent and child, the parent and child should become linked to \"fill the gap\". This was happening on the client, but the link was not being pushed to the server, resulting in a lack-of-link when the page was refreshed."
+        },
+        {
+            "id": "b-0.19-2",
+            "highlight": true,
+            "text": "Fixed tax percentage display issue when checking out.",
+            "reasoning": "All values/amounts were being displayed and calculated correctly, but the percentage was being shown as 0% in rare situations."
+        }
+    ],
+    "tweaks": [
+        {
+            "id": "t-0.19-1",
+            "highlight": false,
+            "text": "Added a basic 404 page."
+        },
+        {
+            "id": "t-0.19-2",
+            "highlight": true,
+            "text": "Added changelog, about us, and contact us pages"
+        }
+    ]
+}

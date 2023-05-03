@@ -1,0 +1,41 @@
+{
+    "features": [
+        {
+            "id": "f-0.22-1",
+            "highlight": true,
+            "text": "Added the ability to bulk-create child blocks by holding the \"ctrl\" key.",
+            "reasoning": "Holding the \"ctrl\" key when creating a new child block will enter \"bulk creation\" mode. Pressing \"enter\" after typing in the new block's summary text will immediately create a new block. Pressing the \"escape\" key, clicking anywhere, or pressing \"enter\" twice will exit this mode, and automatically select all the newly-created blocks."
+        }
+    ],
+    "bugs": [
+        {
+            "id": "b-0.22-1",
+            "highlight": false,
+            "text": "Resolved a harmless but sporatic error encountered when dropping blocks at the end of a Kanban list."
+        },
+        {
+            "id": "b-0.22-2",
+            "highlight": false,
+            "text": "Moving a block into the \"Uncategorized\" column of a Kanban view clears the value instead of displaying an error."
+        }
+    ],
+    "tweaks": [
+        {
+            "id": "t-0.22-1",
+            "highlight": true,
+            "text": "Added block deletion to the Kanban and Filter views.",
+            "reasoning": "Select the block(s) and press \"delete\" or \"backspace\" to delete them."
+        },
+        {
+            "id": "t-0.22-2",
+            "highlight": false,
+            "text": "Clicking the background of a view clears the current block selection."
+        },
+        {
+            "id": "t-0.22-3",
+            "highlight": false,
+            "text": "View icon in the upper-left can be clicked to close the current view.",
+            "reasoning": "The \"Back to Mind Map\" button in the bottom-right isn't the most intuitive, so we decided to provide an alternative. The correct icon to click is highlighted in white to make it more identifiable."
+        }
+    ]
+}

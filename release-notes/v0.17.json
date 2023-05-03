@@ -1,0 +1,64 @@
+{
+    "features": [
+        {
+            "id": "f-0.17-1",
+            "highlight": true,
+            "text": "Added controls to the bottom-right when inside the app.",
+            "reasoning": "We've had a few requests to publish the controls somewhere. We thought this would be a good place for them!"
+        },
+        {
+            "id": "f-0.17-2",
+            "highlight": false,
+            "text": "Improved website responsiveness for mobile browsers (work in progress)",
+            "reasoning": "While there aren't plans to make the application mobile-friendly at this time, the core website should still look decent regardless of your screen size."
+        },
+        {
+            "id": "f-0.17-3",
+            "highlight": false,
+            "text": "Additional email notifications for changes related to your account.",
+            "reasoning": "If your user data or subscription gets changed, we want to notify you just in case it wasn't you who requested the change."
+        }
+    ],
+    "bugs": [
+        {
+            "id": "b-0.17-1",
+            "highlight": false,
+            "text": "Resolved occasional error message seen when deleting a block that had children."
+        },
+        {
+            "id": "b-0.17-2",
+            "highlight": false,
+            "text": "Resolved subscription display bug when immediately revoking a given plan membership."
+        }
+    ],
+    "tweaks": [
+        {
+            "id": "t-0.17-1",
+            "highlight": true,
+            "text": "Expanded blocks are now a consistent size (regardless of their depth) for easier readability.",
+            "reasoning": "This seems to go against the auto-scaling nature of the app, but more often than not I found myself needing to adjust my zoom whenever I expand a block. Now it should always be readable regardless of the zoom level."
+        },
+        {
+            "id": "t-0.17-2",
+            "highlight": true,
+            "text": "Moved release notes to the bottom-right corner.",
+            "reasoning": "You know what's better than a giant pop-up dialog when you log into Spacia? Pretty much anything. Hopefully the release notes are less disruptive in their new home."
+        },
+        {
+            "id": "t-0.17-3",
+            "highlight": false,
+            "text": "Improved wording of a few common error messages."
+        },
+        {
+            "id": "t-0.17-4",
+            "highlight": false,
+            "text": "Bulk alignment tools now center the block stacks instead of top/left aligning them when their sizes differ."
+        },
+        {
+            "id": "t-0.17-5",
+            "highlight": false,
+            "text": "Improved dragging behavior inside the app.",
+            "reasoning": "While dragging, if your mouse passed over certain areas (like dialog boxes), the drag would get interrupted and create a less-than-wonderful interaction. We've made some changes to resolve this issue for the most common culprits."
+        }
+    ]
+}

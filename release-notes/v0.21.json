@@ -1,0 +1,30 @@
+{
+    "features": [
+        {
+            "id": "f-0.21-1",
+            "highlight": true,
+            "text": "Added two new views: Kanban and Filter!",
+            "reasoning": "Kanbans are great for grouping tasks into 'buckets', and filters allow for more-advanced searches across your blocks. You can find these new views in the upper-left of an open board."
+        },
+        {
+            "id": "f-0.21-2",
+            "highlight": true,
+            "text": "Refreshed the look and feel of the website.",
+            "reasoning": "The old website was clumsy and amateurish, so we felt a redesign was needed. There are still a few places that haven't received the new look, but they'll be updated in the coming releases."
+        }
+    ],
+    "bugs": [
+        {
+            "id": "b-0.21-1",
+            "highlight": false,
+            "text": "Addressed some performance slowdowns for certain hardware."
+        }
+    ],
+    "tweaks": [
+        {
+            "id": "t-0.21-1",
+            "highlight": false,
+            "text": "Updated the demos, which included adding Kanban/Filter views."
+        }
+    ]
+}

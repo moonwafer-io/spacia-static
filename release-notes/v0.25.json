@@ -1,0 +1,37 @@
+{
+    "features": [
+        {
+            "id": "f-0.25-1",
+            "highlight": true,
+            "text": "Added date and time field types.",
+            "reasoning": "Now you can set due dates, meeting dates, etc, on your blocks, and filter based on these values in your views."
+        }
+    ],
+    "bugs": [
+        {
+            "id": "b-0.25-1",
+            "highlight": false,
+            "text": "Resolved an issue related to renaming possible values.",
+            "reasoning": "When multiple possible values were renamed at once, under very rare circumstances all of your blocks could get changed to reflect the final possible value in the list."
+        }, {
+            "id": "b-0.25-2",
+            "highlight": false,
+            "text": "Pressing enter when a term is in the search bar will now only jump to the top result when the search bar has focus."
+        }
+    ],
+    "tweaks": [
+        {
+            "id": "t-0.25-1",
+            "highlight": true,
+            "text": "Greatly improved website load times."
+        }, {
+            "id": "t-0.25-2",
+            "highlight": false,
+            "text": "When navigating to a board from your browser bookmarks, if you're not logged in, you'll be prompted to log in and then be automatically redirected to your target board."
+        }, {
+            "id": "t-0.25-3",
+            "highlight": false,
+            "text": "Improved performance when inside a view."
+        }
+    ]
+}

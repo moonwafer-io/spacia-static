@@ -1,0 +1,35 @@
+{
+    "features": [
+        {
+            "id": "f-0.23-1",
+            "highlight": true,
+            "text": "Added \"does not equal\" operator to single-select fields when defining a view's filter."
+        }
+    ],
+    "bugs": [
+    ],
+    "tweaks": [
+        {
+            "id": "t-0.23-1",
+            "highlight": true,
+            "text": "Created documentation pages covering the recently-added Filter and Kanban views."
+        },
+        {
+            "id": "t-0.23-2",
+            "highlight": false,
+            "text": "Updated view configuration to better reflect the board's available classifications and fields.",
+            "reasoning": "When the board didn't have classifications or fields that could be used by a filter, the options were still showing as available. Invalid options are now disabled with a message explaining the reason."
+        },
+        {
+            "id": "t-0.23-3",
+            "highlight": false,
+            "text": "Added separate \"control\" panes for each view type.",
+            "reasoning": "While we try to stay consistent with our controls, they can differ slightly between the views. The controls pane now updates to reflect your current view."
+        },
+        {
+            "id": "t-0.23-4",
+            "highlight": false,
+            "text": "Improved style consistency throughout the app."
+        }
+    ]
+}

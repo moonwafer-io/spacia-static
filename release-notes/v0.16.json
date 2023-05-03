@@ -1,0 +1,35 @@
+{
+    "features": [
+        {
+            "id": "f-0.16-1",
+            "highlight": true,
+            "text": "Recent release notes shown at log in.",
+            "reasoning": "We'd like to show you what we've been up to! If you find these notifications annoying, please let us know. We have an upcoming task to opt out of these."
+        },
+        {
+            "id": "f-0.16-2",
+            "highlight": false,
+            "text": "Added password reset capability"
+        },
+        {
+            "id": "f-0.16-3",
+            "highlight": true,
+            "text": "Added \"Give Feedback\" form.",
+            "reasoning": "Feedback is great - especially the \"bad stuff\" so we know where we can improve. To make it easier for you, we added a convenient form tucked away in the bottom-right corner of your screen. Send us feedback as often as you'd like!"
+        }
+    ],
+    "bugs": [
+        {
+            "id": "b-0.16-1",
+            "highlight": false,
+            "text": "Resolved user authentication issues encountered after viewing demos."
+        }
+    ],
+    "tweaks": [
+        {
+            "id": "t-0.16-1",
+            "highlight": false,
+            "text": "Users with outdated clients are prompted to refresh."
+        }
+    ]
+}

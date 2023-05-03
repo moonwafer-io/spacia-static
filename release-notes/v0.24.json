@@ -1,0 +1,36 @@
+{
+    "features": [
+        {
+            "id": "f-0.24-1",
+            "highlight": true,
+            "text": "Added templates for new boards, allowing you to create a board with some initial classifications.",
+            "reasoning": "You can use one of your existing boards as a template too. If you don't see it in the template list, open the board and \"re-save\" the classifications to generate the template."
+        }
+    ],
+    "bugs": [
+        {
+            "id": "b-0.24-1",
+            "highlight": true,
+            "text": "Resolved an issue causing blocks to stay expanded after previewing their contents."
+        }, {
+            "id": "b-0.24-2",
+            "highlight": false,
+            "text": "Auto-closed some notifications and windows specific to the app when navigating away from the app."
+        }
+    ],
+    "tweaks": [
+        {
+            "id": "t-0.24-1",
+            "highlight": false,
+            "text": "Changed the release notes \"attention-grabber\" to be less intrusive and frustrating."
+        }, {
+            "id": "t-0.24-2",
+            "highlight": false,
+            "text": "Improved the pink underline for multi-line text, which is especially relevant for long links in a block's text editor field."
+        }, {
+            "id": "t-0.24-3",
+            "highlight": false,
+            "text": "Updated the \"introduction text\" styling of the edit classifications and fields dialogs for better theme consistency."
+        }
+    ]
+}

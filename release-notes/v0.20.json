@@ -1,0 +1,25 @@
+{
+    "features": [
+        {
+            "id": "f-0.20-1",
+            "highlight": true,
+            "text": "Added basic search functionality.",
+            "reasoning": "Performs a basic search on the summary text and all field values of your blocks to find results, allowing you to quickly navigate to what you're looking for. A future update will add more advanced search capabilities with savable filters."
+        }
+    ],
+    "bugs": [
+        {
+            "id": "b-0.20-1",
+            "highlight": false,
+            "text": "Resolved an issue where the changelog page wasn't being populated if navigating from a homepage demo."
+        }
+    ],
+    "tweaks": [
+        {
+            "id": "t-0.20-1",
+            "highlight": false,
+            "text": "Added restrictions around which field types existing fields can be changed to.",
+            "reasoning": "This takes away some less-useful functionality now, but opens the door to adding some exciting features going forward. This change enables us to add savable filters and additional field types in a future update."
+        }
+    ]
+}
